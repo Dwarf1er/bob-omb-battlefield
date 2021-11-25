@@ -15,7 +15,7 @@ All of the visuals were provided by the professor and teaching assisstant.
 
 [ ] Add sound effects for: Mario jump (the sounds are found in the "Audio\Sounds" directory)\
 [ ] Add sound effects for: Mario coin pickup (the sounds are found in the "Audio\Sounds" directory)\
-[ ] Add looping background music (the music is found in the "Audio\Music" directory)\
+[X] Add looping background music (the music is found in the "Audio\Music" directory)\
 
 ### UI
 
