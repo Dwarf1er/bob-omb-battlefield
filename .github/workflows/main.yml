@@ -1,9 +1,9 @@
 name: GameCI - Tests & Build 🎮
 
 on:
-  pull_request:
+  push:
     branches:
-      - production
+      - master
 
 
 env:
