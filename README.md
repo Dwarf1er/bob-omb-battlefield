@@ -13,35 +13,35 @@ All of the visuals were provided by the professor and teaching assisstant.
 
 ### Audio
 
-1. Add sound effects for: Mario jump
-2. Add sound effects for: Mario coin pickup
+[] Add sound effects for: Mario jump
+[] Add sound effects for: Mario coin pickup
 
 ### UI
 
-3. Add a health bar for Mario, when it reaches 0 the player has to restart the level from the beginning
-4. Add a collected coins counter for Mario
+[] Add a health bar for Mario, when it reaches 0 the player has to restart the level from the beginning
+[] Add a collected coins counter for Mario
 
 ### Level
 
-5. Add a minimum of 50 coins to the level
-6. Add an arbitrary amount of crates to the level
-7. Add an arbitrary amount of enemy bob-ombs
-9. Make the canon's barrel black
-10. Make the start yellow
-11. Make the coins yellow
-12. Apply the albedo and normal maps to the crate, bridge and goal flag (the maps are found in the "Textures" directory)
-13. Tile the bridge to make it look identical to the other one
+[] Add a minimum of 50 coins to the level
+[] Add an arbitrary amount of crates to the level
+[] Add an arbitrary amount of enemy bob-ombs
+[] Make the canon's barrel black
+[] Make the start yellow
+[] Make the coins yellow
+[] Apply the albedo and normal maps to the crate, bridge and goal flag (the maps are found in the "Textures" directory)
+[] Tile the bridge to make it look identical to the other one
 
 ### Gameplay
 
-14. Animate Mario (the animations are found in the "Animations" directory)
-15. Animate coins and make them collectable by the player
-16. Make the collected coins increase Mario's movement speed
-17. Make the camera avoid clipping through the environment using [raycasting](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html)
-18. Place thwomps and bob-ombs through the level
-19. Make the thwomps float above ground waiting for the player to be under them to fall down, they sould face Mario on the XZ plane
-20. Bob-ombs should chase Mario when he is near them and explode on him on contact
-21. Talk to Boo to challenge him to race to the top of the mountain. Boo will cheat, cut corners, and phase through obstacles and hazards. If Mario makes it to the top first then Boo will admit defeat and give a star to Mario, otherwise if Mario makes it to the top after Boo does then he will kill Mario (restarting the level). The gameplay parameters (speeds, damage, hazard placement, etc.) must make the race playable
+[] Animate Mario (the animations are found in the "Animations" directory)
+[] Animate coins and make them collectable by the player
+[] Make the collected coins increase Mario's movement speed
+[] Make the camera avoid clipping through the environment using [raycasting](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html)
+[] Place thwomps and bob-ombs through the level
+[] Make the thwomps float above ground waiting for the player to be under them to fall down, they sould face Mario on the XZ plane
+[] Bob-ombs should chase Mario when he is near them and explode on him on contact
+[] Talk to Boo to challenge him to race to the top of the mountain. Boo will cheat, cut corners, and phase through obstacles and hazards. If Mario makes it to the top first then Boo will admit defeat and give a star to Mario, otherwise if Mario makes it to the top after Boo does then he will kill Mario (restarting the level). The gameplay parameters (speeds, damage, hazard placement, etc.) must make the race playable
 
 ## Getting Started
 
