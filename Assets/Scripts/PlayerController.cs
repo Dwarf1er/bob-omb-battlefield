@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private CharacterController characterController;
+    [SerializeField] public AudioSource jumpSound;
     [SerializeField] private Camera playerCamera;
     [SerializeField] private float playerSpeed = 5f;
     [SerializeField] private float mouseSensitivity = 5f;
@@ -13,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField, Min(0)] private float groundCheckRadius = 0.1f;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField, Min(0)] private float jumpHeight = 2f;
+    [SerializeField] public Animator animator;
 
     private Vector3 playerVelocity;
     private Vector3 playerRotation;
@@ -22,6 +24,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 gravitationalForce;
     private bool isDead = false;
     private bool isGrounded;
+    private bool isRunning;
     private bool jumpMomentumCheck;
 
 
@@ -49,6 +52,9 @@ public class PlayerController : MonoBehaviour
         ApplyPlayerRotation();
         ApplyCameraRotation();
         ApplyCameraOffset();
+
+        animator.SetBool("Jump", !isGrounded);
+        animator.SetBool("Run", isRunning);
     }
 
     private void CalculatePlayerVelocity()
@@ -110,9 +116,13 @@ public class PlayerController : MonoBehaviour
     private void ApplyPlayerVelocity()
     {
         IsGrounded();
+        IsRunning();
 
         if (Input.GetButton("Jump") && isGrounded)
+        {
             gravitationalForce.y = Mathf.Sqrt(-2 * jumpHeight * gravity);
+            jumpSound.Play();
+        }
 
         characterController.Move((playerVelocity * playerSpeed * Time.deltaTime) + (gravitationalForce * Time.deltaTime));
     }
@@ -168,5 +178,14 @@ public class PlayerController : MonoBehaviour
                 gravitationalForce.y += gravity * Time.deltaTime;
             }
         }
+    }
+
+    public void IsRunning()
+    {
+        if (playerVelocity != Vector3.zero && isGrounded)
+            isRunning = true;
+
+        else
+            isRunning = false;
     }
 }
