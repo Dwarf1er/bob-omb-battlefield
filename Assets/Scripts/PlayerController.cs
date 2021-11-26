@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private CharacterController characterController;
     [SerializeField] public AudioSource jumpSound;
     [SerializeField] private Camera playerCamera;
-    [SerializeField] private float playerSpeed = 5f;
+    [SerializeField] public static float playerSpeed = 5f;
     [SerializeField] private float mouseSensitivity = 5f;
     [SerializeField] private Vector3 playerCameraOffset = new Vector3(0, 0, -5f);
     [SerializeField] float playerCameraRotationCap = 70f;
@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
     private float liveCameraRotation = 0f;
     private float playerHeight;
     private Vector3 gravitationalForce;
-    private bool isDead = false;
     private bool isGrounded;
     private bool isRunning;
     private bool jumpMomentumCheck;
@@ -38,9 +37,6 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (isDead)
-            return;
-        
         playerCameraOffset = new Vector3(0, 0, -5f);
 
         CalculatePlayerVelocity();

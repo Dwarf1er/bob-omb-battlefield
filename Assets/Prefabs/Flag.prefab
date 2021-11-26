@@ -55,10 +55,12 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 17e26ff6bb1f361408ab2ef9b5950986, type: 2}
+  - {fileID: 2100000, guid: ed895ff76a0f9fe44b267e6ab0d8b281, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,8 +90,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.75, y: 0.00000004202128, z: 0.3750001}
+    m_Center: {x: -2.145805, y: 0.97879565, z: -1.8219477}
+    m_Extent: {x: 4.9974093, y: 0.039910674, z: 5.0130305}
   m_DirtyAABB: 0
 --- !u!183 &6871667996614916146
 Cloth:
@@ -104,8 +106,8 @@ Cloth:
   m_UseTethers: 1
   m_UseGravity: 0
   m_Damping: 0
-  m_ExternalAcceleration: {x: -1, y: 0, z: 0.5}
-  m_RandomAcceleration: {x: 0.5, y: 0.5, z: 0.5}
+  m_ExternalAcceleration: {x: 0, y: 0, z: 0}
+  m_RandomAcceleration: {x: 0, y: 0, z: 0}
   m_WorldVelocityScale: 0.5
   m_WorldAccelerationScale: 1
   m_Friction: 0.5
@@ -473,10 +475,12 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2e7c175ae090d044196c37d4e130f14e, type: 2}
+  - {fileID: 2100000, guid: 644013c2c2d1b9846a4e7e3c4a2bb010, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -497,3 +501,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

@@ -14,30 +14,30 @@ All of the visuals were provided by the professor and teaching assisstant.
 ### Audio
 
 [X] Add sound effects for: Mario jump (the sounds are found in the "Audio\Sounds" directory)\
-[ ] Add sound effects for: Mario coin pickup (the sounds are found in the "Audio\Sounds" directory)\
+[X] Add sound effects for: Mario coin pickup (the sounds are found in the "Audio\Sounds" directory)\
 [X] Add looping background music (the music is found in the "Audio\Music" directory)
 
 ### UI
 
-[ ] Add a health bar for Mario, when it reaches 0 the player has to restart the level from the beginning\
-[ ] Add a collected coins counter for Mario
+[X] Add a health bar for Mario, when it reaches 0 the player has to restart the level from the beginning\
+[X] Add a collected coins counter for Mario
 
 ### Level
 
-[ ] Add a minimum of 50 coins to the level\
-[ ] Add an arbitrary amount of crates to the level\
+[X] Add a minimum of 50 coins to the level\
+[X] Add an arbitrary amount of crates to the level\
 [ ] Add an arbitrary amount of enemy bob-ombs\
-[ ] Make the canon's barrel black\
-[ ] Make the star yellow\
-[ ] Make the coins yellow\
-[ ] Apply the albedo and normal maps to the crate, bridge and goal flag (the maps are found in the "Textures" directory)\
-[ ] Tile the bridge to make it look identical to the other one
+[X] Make the canon's barrel black\
+[X] Make the star yellow\
+[X] Make the coins yellow\
+[X] Apply the albedo and normal maps to the crate, bridge and goal flag (the maps are found in the "Textures" directory)\
+[X] Tile the bridge to make it look identical to the other one
 
 ### Gameplay
 
 [X] Animate Mario (the animations are found in the "Animations" directory)\
-[ ] Animate coins and make them collectable by the player\
-[ ] Make the collected coins increase Mario's movement speed\
+[X] Animate coins and make them collectable by the player\
+[X] Make the collected coins increase Mario's movement speed\
 [X] Make the camera avoid clipping through the environment using [raycasting](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html)\
 [ ] Place thwomps and bob-ombs through the level\
 [ ] Make the thwomps float above ground waiting for the player to be under them to fall down, they sould face Mario on the XZ plane\
