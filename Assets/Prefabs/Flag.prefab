@@ -385,6 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6871667996879204914}
   - component: {fileID: 6871667996879204925}
+  - component: {fileID: 4325199745453204889}
   m_Layer: 0
   m_Name: Flag
   m_TagString: Untagged
@@ -420,6 +421,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 4
   m_Center: {x: 0, y: 1.5, z: 0}
+--- !u!114 &4325199745453204889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6871667996879204915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da8dba91bad43848b627254dcb95d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  star: {fileID: 5613713225681791830, guid: c0c0d6ce2370d494099bc2d952de7753, type: 3}
 --- !u!1 &6871667997228980616
 GameObject:
   m_ObjectHideFlags: 0

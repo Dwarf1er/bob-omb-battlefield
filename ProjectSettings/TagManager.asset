@@ -8,6 +8,7 @@ TagManager:
   - Crate
   - Coin
   - RedCoin
+  - Boo
   layers:
   - Default
   - TransparentFX
