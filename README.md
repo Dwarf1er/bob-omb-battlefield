@@ -41,7 +41,7 @@ All of the visuals were provided by the professor and teaching assisstant.
 [X] Make the collected coins increase Mario's movement speed\
 [X] Make the camera avoid clipping through the environment using [raycasting](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html)\
 [X] Place thwomps and bob-ombs through the level\
-[ ] Make the thwomps float above ground waiting for the player to be under them to fall down, they sould face Mario on the XZ plane\
+[X] Make the thwomps float above ground waiting for the player to be under them to fall down, they sould face Mario on the XZ plane\
 [X] Bob-ombs should chase Mario when he is near them and explode on him on contact\
 [ ] Talk to Boo to challenge him to a race to the top of the mountain. Boo will cheat, cut corners, and phase through obstacles and hazards. If Mario makes it to the top first then Boo will admit defeat and give a star to Mario, otherwise if Mario makes it to the top after Boo does, he will kill Mario (restarting the level). The gameplay parameters (speeds, damage, hazard placement, etc.) must make the race playable
 
@@ -54,7 +54,9 @@ To run this game, you'll need [Unity 2020.3.17f1](https://unity3d.com/get-unity/
 Action | Key on keyboard
 --- | --- 
 Move left | `a`
-Move right | `d` 
+Move right | `d`
+Move forward | `w`
+Move backward | `s` 
 Jump | `space`
 
 ## How To Use This Project

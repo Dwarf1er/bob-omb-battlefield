@@ -1,12 +1,7 @@
 using UnityEngine;
-using UnityEngine.AI;
 
-public class BobombController : MonoBehaviour
-{
-    [SerializeField] private NavMeshAgent enemy;
-    [SerializeField] private Transform player;
-    [SerializeField] private ParticleSystem explosion;
-
+public class ThwompCrushDetector : MonoBehaviour
+{    
     private bool hasHit = false;
 
     // Start is called before the first frame update
@@ -18,7 +13,7 @@ public class BobombController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy.SetDestination(player.position);
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,8 +22,11 @@ public class BobombController : MonoBehaviour
         {
             hasHit = true;
             other.GetComponent<PlayerStats>().PlayerHit();
-            Instantiate(explosion, transform.position, Quaternion.identity);
-            Destroy(gameObject);
         }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        hasHit = false;
     }
 }
