@@ -1,4 +1,5 @@
 # Bob-omb Battlefied
+
 This is the repository for the final quiz of COMP 376 - Introduction to Game Development Fall 2021 at Concordia University. This quiz is taking inspiration from the first level of the 1996 platformer game [Super Mario 64](https://en.wikipedia.org/wiki/Super_Mario_64). The goal is to remake the first level of this game using [Unity engine](https://unity.com/).
 
 ## Demo Video
@@ -39,9 +40,9 @@ All of the visuals were provided by the professor and teaching assisstant.
 [X] Animate coins and make them collectable by the player\
 [X] Make the collected coins increase Mario's movement speed\
 [X] Make the camera avoid clipping through the environment using [raycasting](https://docs.unity3d.com/ScriptReference/Physics.Raycast.html)\
-[ ] Place thwomps and bob-ombs through the level\
+[X] Place thwomps and bob-ombs through the level\
 [ ] Make the thwomps float above ground waiting for the player to be under them to fall down, they sould face Mario on the XZ plane\
-[ ] Bob-ombs should chase Mario when he is near them and explode on him on contact\
+[X] Bob-ombs should chase Mario when he is near them and explode on him on contact\
 [ ] Talk to Boo to challenge him to a race to the top of the mountain. Boo will cheat, cut corners, and phase through obstacles and hazards. If Mario makes it to the top first then Boo will admit defeat and give a star to Mario, otherwise if Mario makes it to the top after Boo does, he will kill Mario (restarting the level). The gameplay parameters (speeds, damage, hazard placement, etc.) must make the race playable
 
 ## Getting Started

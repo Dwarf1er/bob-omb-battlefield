@@ -52,7 +52,7 @@ public class PlayerStats : MonoBehaviour
     {
         playerCoins++;
         coinText.text = playerCoins.ToString() + " X COINS";
-        PlayerController.playerSpeed += 0.1f;
+        PlayerController.playerSpeed += 0.05f;
         
         if (playerHealthPoints < 8)
         {
