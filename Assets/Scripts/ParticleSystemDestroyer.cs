@@ -8,18 +8,18 @@ public class ParticleSystemDestroyer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(WaitForParticle());
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    private IEnumerator WaitForAudio()
+    private IEnumerator WaitForParticle()
     {
-        yield return new WaitUntil(() => particle.isPlaying == false);
+        yield return new WaitUntil(() => particle.isEmitting == false);
         Destroy(gameObject);
     }
 }

@@ -51,7 +51,7 @@ public class PlayerStats : MonoBehaviour
     public void PlayerHeal()
     {
         playerCoins++;
-        coinText.text = playerCoins.ToString() + " X COINS";
+        coinText.text = playerCoins.ToString();
         PlayerController.playerSpeed += 0.05f;
         
         if (playerHealthPoints < 8)

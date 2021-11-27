@@ -2,10 +2,6 @@
 
 This is the repository for the final quiz of COMP 376 - Introduction to Game Development Fall 2021 at Concordia University. This quiz is taking inspiration from the first level of the 1996 platformer game [Super Mario 64](https://en.wikipedia.org/wiki/Super_Mario_64). The goal is to remake the first level of this game using [Unity engine](https://unity.com/).
 
-## Demo Video
-
-TODO
-
 ## Art
 
 All of the visuals were provided by the professor and teaching assisstant.
@@ -27,7 +23,7 @@ All of the visuals were provided by the professor and teaching assisstant.
 
 [X] Add a minimum of 50 coins to the level\
 [X] Add an arbitrary amount of crates to the level\
-[ ] Add an arbitrary amount of enemy bob-ombs\
+[X] Add an arbitrary amount of enemy bob-ombs\
 [X] Make the canon's barrel black\
 [X] Make the star yellow\
 [X] Make the coins yellow\
@@ -43,7 +39,7 @@ All of the visuals were provided by the professor and teaching assisstant.
 [X] Place thwomps and bob-ombs through the level\
 [X] Make the thwomps float above ground waiting for the player to be under them to fall down, they sould face Mario on the XZ plane\
 [X] Bob-ombs should chase Mario when he is near them and explode on him on contact\
-[ ] Talk to Boo to challenge him to a race to the top of the mountain. Boo will cheat, cut corners, and phase through obstacles and hazards. If Mario makes it to the top first then Boo will admit defeat and give a star to Mario, otherwise if Mario makes it to the top after Boo does, he will kill Mario (restarting the level). The gameplay parameters (speeds, damage, hazard placement, etc.) must make the race playable
+[X] Talk to Boo to challenge him to a race to the top of the mountain. Boo will cheat, cut corners, and phase through obstacles and hazards. If Mario makes it to the top first then Boo will admit defeat and give a star to Mario, otherwise if Mario makes it to the top after Boo does, he will kill Mario (restarting the level). The gameplay parameters (speeds, damage, hazard placement, etc.) must make the race playable
 
 ## Getting Started
 
@@ -56,7 +52,8 @@ Action | Key on keyboard
 Move left | `a`
 Move right | `d`
 Move forward | `w`
-Move backward | `s` 
+Move backward | `s`
+Interact | `e` 
 Jump | `space`
 
 ## How To Use This Project

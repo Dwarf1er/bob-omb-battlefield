@@ -3,8 +3,6 @@ using UnityEngine.AI;
 
 public class BobombController : MonoBehaviour
 {
-    [SerializeField] private NavMeshAgent enemy;
-    [SerializeField] private Transform player;
     [SerializeField] private ParticleSystem explosion;
 
     private bool hasHit = false;
@@ -18,7 +16,7 @@ public class BobombController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy.SetDestination(player.position);
+
     }
 
     private void OnTriggerEnter(Collider other)
