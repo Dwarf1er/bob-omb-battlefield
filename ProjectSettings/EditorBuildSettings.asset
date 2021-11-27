@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BombombBattlefield.unity
+    path: Assets/Scenes/Bob-omb-battlefield.unity
     guid: 6818e3eec386c9a4bac7aa334b64fbac
   m_configObjects: {}
